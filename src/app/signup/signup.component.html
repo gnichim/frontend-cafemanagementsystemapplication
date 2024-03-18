@@ -144,7 +144,7 @@
     color="primary"
     type="submit"
     (click)="handleSubmit()"
-    [disabled]="validateSubmit() || (!signupForm.valid && signupForm.dirty)"
+    [disabled]="validateSubmit() || !(signupForm.valid && signupForm.dirty)"
   >
     <mat-icon>save</mat-icon> Signup
   </button>
