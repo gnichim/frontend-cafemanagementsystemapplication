@@ -23,6 +23,13 @@ const MENUITEMS = [
     icon: 'category',
     role: 'admin',
   },
+  {
+    state: 'product',
+    name: 'Manage Product',
+    type: 'link',
+    icon: 'inventory_2',
+    role: 'admin',
+  },
 ];
 
 @Injectable()
